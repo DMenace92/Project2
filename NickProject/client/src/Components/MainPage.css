@@ -1,0 +1,113 @@
+.MainPageContainer{
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Wrapper1{
+    border: 1px solid black;
+    
+    
+}
+.image1Design{
+    width:90%;
+    height:40vmax;
+}
+.IntroHolder{
+    
+    width:60vmax;
+}
+.introStatment{
+    width: 80vmax;
+    /* margin-left:150px; */
+    
+    
+    /* justify-content: center; */
+    /* padding:40px; */
+}
+.Wrapper2{
+    border: 1px solid black;
+    
+}
+.mainWrapper3Holder{
+    
+    display: flex; 
+    justify-content: center;
+    /* flex-direction: column; */
+    /* flex-direction: column; */
+    border: 1px solid black;
+  
+
+}
+.Wrapper3{
+    
+flex-direction: column;
+    /* justify-content: center ; */
+
+    /* justify-content: center; */
+ 
+    
+}
+.VendorComponentHolder{
+    padding:20px;
+    border:1px solid black;
+    /* flex-direction: column !important */
+    margin:10px;
+    width:600px;
+}
+.VendorChildComponent{
+
+    
+    /* justify-content: center !important; */
+
+}
+.vendorTextDesign{
+    text-align: start;
+}
+.SubscriptionText{
+    display: flex;
+}
+.textAlighText{
+    position:relative;
+    bottom:-7px;
+    left:10px;
+}
+.vendorSignUpButton{
+    
+    border-radius: 50px;
+    /* width:60vmax; */
+    width:500px;
+    height:30px;
+    color:white;
+    background-color: black;
+    margin:10px;
+}
+.OfferText{
+    /* display: flex; */
+    /* justify-content: center; */
+    width:500px;
+}
+
+.Wrapper4{
+    border: 1px solid black;
+    
+}
+.Wrapper5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    
+}
+.logoImagesIcons{
+    display: flex;
+    justify-content: center;
+}
+.asSeenOn{
+    z-index: 4;
+}
+.cdDesign{
+    margin-top:-50px;
+    width:200px;
+    
+}
