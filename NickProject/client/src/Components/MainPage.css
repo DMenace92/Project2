@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 .Wrapper1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
     
 }
@@ -14,11 +14,19 @@
     height:40vmax;
 }
 .IntroHolder{
-    
-    width:60vmax;
+    display: flex;
+    justify-content: center;
+    /* width:80vmax; */
 }
+.intoMessageStatement{
+
+    /* border: 1px solid black; */
+    width:80vmax;
+    
+}
+
 .introStatment{
-    width: 80vmax;
+    /* width: 80vmax; */
     /* margin-left:150px; */
     
     
@@ -26,7 +34,7 @@
     /* padding:40px; */
 }
 .Wrapper2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 .mainWrapper3Holder{
@@ -35,7 +43,7 @@
     justify-content: center;
     /* flex-direction: column; */
     /* flex-direction: column; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
   
 
 }
@@ -50,10 +58,11 @@ flex-direction: column;
 }
 .VendorComponentHolder{
     padding:20px;
-    border:1px solid black;
+    border:2px solid black;
+    border-radius: 10px;
     /* flex-direction: column !important */
     margin:10px;
-    width:600px;
+    width:40vmax;
 }
 .VendorChildComponent{
 
@@ -76,7 +85,7 @@ flex-direction: column;
     
     border-radius: 50px;
     /* width:60vmax; */
-    width:500px;
+    width:35vmax;
     height:30px;
     color:white;
     background-color: black;
@@ -85,18 +94,18 @@ flex-direction: column;
 .OfferText{
     /* display: flex; */
     /* justify-content: center; */
-    width:500px;
+    width:45vmax;
 }
 
 .Wrapper4{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 .Wrapper5{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 .logoImagesIcons{
@@ -109,5 +118,16 @@ flex-direction: column;
 .cdDesign{
     margin-top:-50px;
     width:200px;
+    /* height:100px;cre */
     
+}
+.cdDesign:hover{
+   
+}
+@media screen and (max-width:400px){
+    .cdDesign{
+        margin-top:-50px;
+        width:150px;
+        
+    }
 }

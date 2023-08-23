@@ -10,13 +10,19 @@ class MainPage extends Component{
             <div className="MainPageContainer">
                 <div className="Wrapper1">
                     <img className="image1Design" src={image1}></img>
-                    
+                    <div className="IntroHolder">
+                    <div className="intoMessageStatement">
                     <p className="introStatment">
+                        
 Integrity is a fundamental aspect of conducting business to the glory of God. Honesty, transparency, and fairness should permeate every decision and action taken. Upholding high moral standards not only builds trust but also reflects the character of God. A business that seeks to honor God should also prioritize the well-being of its employees and customers. This means treating employees with respect, providing fair wages, offering opportunities for growth, and creating a positive work environment. Customers should be served with excellence, offering them products or services that meet their needs and provide value.
 </p><p className="introStatment">
 Furthermore, a business can actively contribute to the betterment of society by engaging in ethical practices and promoting social responsibility. This may involve supporting local communities, investing in sustainable practices, or donating a portion of profits to charitable causes. Beyond the external aspects, a business to the glory of God should also prioritize the spiritual growth and character development of those involved. Encouraging employees to pursue personal and professional growth, fostering an atmosphere of prayer and encouragement, and promoting ethical decision-making rooted in biblical principles are all ways to align the business with God’s purposes.
 </p><p className="introStatment">
 Ultimately, running a business to the glory of God is about recognizing that all resources, opportunities, and abilities come from Him. It is about stewarding those resources well and using them to make a positive impact, while always seeking to honor God in every aspect of the business. May this perspective inspire and guide those who desire to integrate their faith with their work, so that their business becomes a shining light that brings glory to God and blesses those it serves.</p>
+                
+                    
+                </div>
+                </div>
                 </div>
                 <div className="Wrapper2">
                     <h1>Weekly Market Schedule</h1>
