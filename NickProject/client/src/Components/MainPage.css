@@ -1,14 +1,14 @@
 .MainPageContainer{
-    margin-top:80px;
+    margin-top:85px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.Wrapper1{
-    /* border: 1px solid black; */
+/* .Wrapper1{
+    border: 1px solid black;
     
     
-}
+} */
 .image1Design{
     width:90%;
     height:40vmax;
@@ -20,23 +20,24 @@
 }
 .intoMessageStatement{
 
+    text-align: left;
     /* border: 1px solid black; */
     width:80vmax;
     
 }
 
-.introStatment{
-    /* width: 80vmax; */
-    /* margin-left:150px; */
+/* .introStatment{
+    width: 80vmax; 
+     margin-left:150px; 
     
     
-    /* justify-content: center; */
-    /* padding:40px; */
-}
-.Wrapper2{
-    /* border: 1px solid black; */
+    justify-content: center; 
+    padding:40px;
+} */
+/* .Wrapper2{
+    border: 1px solid black;
     
-}
+} */
 .mainWrapper3Holder{
     
     display: flex; 
@@ -64,12 +65,12 @@ flex-direction: column;
     margin:10px;
     width:40vmax;
 }
-.VendorChildComponent{
+/* .VendorChildComponent{
 
     
-    /* justify-content: center !important; */
+    justify-content: center !important;
 
-}
+} */
 .vendorTextDesign{
     text-align: start;
 }
@@ -91,16 +92,19 @@ flex-direction: column;
     background-color: black;
     margin:10px;
 }
+.vendorSignUpButton:hover{
+    background-color: rgba(0, 44, 1, 0.698);
+}
 .OfferText{
     /* display: flex; */
     /* justify-content: center; */
     width:45vmax;
 }
 
-.Wrapper4{
-    /* border: 1px solid black; */
+/* .Wrapper4{
+    border: 1px solid black;
     
-}
+} */
 .Wrapper5{
     display: flex;
     justify-content: center;
@@ -121,9 +125,9 @@ flex-direction: column;
     /* height:100px;cre */
     
 }
-.cdDesign:hover{
+/* .cdDesign:hover{
    
-}
+} */
 @media screen and (max-width:400px){
     .cdDesign{
         margin-top:-50px;

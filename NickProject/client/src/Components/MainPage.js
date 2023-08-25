@@ -45,7 +45,9 @@ Ultimately, running a business to the glory of God is about recognizing that all
                         <h1>$0</h1>
                         <h4 className="textAlighText">Application Fee through December</h4>
                         </div>
+                        <a href="https://form.jotform.com/232347963636162">
                         <button className="vendorSignUpButton">Sign Up</button>
+                        </a>
                         </div>
                         
                     </div>

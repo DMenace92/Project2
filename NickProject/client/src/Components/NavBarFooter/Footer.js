@@ -3,6 +3,7 @@ import React from 'react'
 import facebook from '../Images/facebook.png'
 import instagram from '../Images/instagram.png'
 import twitter from '../Images/twitter.png'
+import email from '../Images/email .png'
 
 import './Footer.css'
 
@@ -16,11 +17,11 @@ const Footer = () => {
                         {/* <img src={image} alt="Logo" /> */}
                     </div>
                     <div className="footer__links">
-                        {/* <ul className="footer__list">
+                        <ul className="footer__list">
                             <li className="footer__list-item">
-                                <a href="/">Home</a>
+                                <a href="/Events">Events</a>
                             </li>
-                            <li className="footer__list-item">
+                            {/* <li className="footer__list-item">
                                 <a href="/about">About</a>
                             </li>
                             <li className="footer__list-item">
@@ -28,8 +29,8 @@ const Footer = () => {
                             </li>
                             <li className="footer__list-item">
                                 <a href="/contact">Contact</a>
-                            </li>
-                        </ul> */}
+                            </li> */}
+                        </ul>
                     </div>
 
                 </div>
@@ -40,7 +41,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__social-media">
                     {/* Add your social media icons or links here */}
-                    <a href="https://www.facebook.com">
+                    <a href="https://www.facebook.com/EightTenMarkets?mibextid=ZbWKwL">
                         <i className="fab fa-facebook"></i>
                         <img className="footerIcons" src={facebook}></img>
                     </a>
@@ -48,9 +49,13 @@ const Footer = () => {
                         <i className="fab fa-twitter"></i>
                         <img className="footerIcons" src={twitter}></img>
                     </a>
-                    <a href="https://www.instagram.com">
+                    <a href="https://www.instagram.com/eight_ten_markets/?igshid=MzRlODBiNWFlZA%3D%3D">
                         <i className="fab fa-instagram"></i>
                         <img className="footerIcons" src={instagram}></img>
+                    </a>
+                    <a href="info@eighttenmarkets.com">
+                        <i className="fab fa-email"></i>
+                        <img className="footerIcons" src={email}></img>
                     </a>
                     {/* <a href="https://www.linkedin.com/in/dennisenwiya">
                         <i className="fab fa-instagram"></i>

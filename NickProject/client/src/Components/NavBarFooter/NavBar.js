@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 // import styled, { createGlobalStyle } from "styled-components";
 
 // import { Link } from 'react-router-dom';
-// import image from "../../Images/MyLogo1.jpg"
+import logoImage from "../Images/logo.png"
 import './NavBar.css'
 
 function NavBar() {
@@ -32,32 +32,32 @@ function NavBar() {
             <div className="navbar-container">
                 <div className="testDesign">
                     <a href="/" className="navbar-logo">
-                        {/* <img className="logoDesign" src={image} alt="this is my logo"></img> */}
-
+                       
+                       <div className="quoteContainer"> <img className="logoDesign" src={logoImage} alt="this is my logo"></img>
+                        <p className="bibleQuoteNav">“Above all, keep fervent in your love for one another, because love covers a multitude of sins. Be hospitable to one another without complaint. As each one has received a special gift, employ it in serving one another as good stewards of the multifaceted grace of God.” — 1 Peter 4: 8-10 NASB</p>
+                        </div>
                     </a>
                 </div>
 
-                <ul className="navbar-menu">
+                {/* <ul className="navbar-menu">
                     <li className="navbar-item">
                         <a href="/" className="navbar-link">Home</a>
                     </li>
-                    {/* <li className="navbar-item">
-                        <a href="/about" className="navbar-link">About</a>
-                    </li> */}
+          
                     <li className="navbar-item">
                         <a href="/Projects" className="navbar-link">News</a>
                     </li>
-                    {/* <li className="navbar-item">
-                        <a href="/contact" className="navbar-link">Contact</a>
-                    </li> */}
                     <li className="navbar-item">
-                        <a href="/certifications" className="navbar-link">Events</a>
+                        <a href="/contact" className="navbar-link">Contact</a>
+                    </li>
+                    <li className="navbar-item">
+                        <a href="/events" className="navbar-link">Events</a>
                         
                     </li>
                     <li className="navbar-item">
                         <a href="/certifications" className="navbar-link">Contact</a>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </nav>
     );

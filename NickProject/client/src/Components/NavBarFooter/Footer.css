@@ -25,7 +25,9 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-right:30px;
     display: flex;
+    
 }
 
 .footer__list-item {
@@ -37,7 +39,7 @@
 }
 
 .footer__list-item a {
-    color: #555555;
+    color: white;
     text-decoration: none;
 }
 
